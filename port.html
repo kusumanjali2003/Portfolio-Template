@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Template</title>
+    <link rel="stylesheet" href="./folioarjun.css">
+    <script src="https://kit.fontawesome.com/fb18d97b3d.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#skill">SKILL</a></li>
+                <li><a href="#portfolio">PROJECT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+
+            </ul>
+            
+        </nav>
+    </header>
+
+    <!-- HOME PAGES -->
+    <div class="home" id="home">
+        <h1>[user role]</h1><br>
+    <div class="round-image"><img src="./hispic.jpg" alt="Round Image"></div>
+    <P>I  AM  [user name]</P>
+    
+    <div class="short-line"></div>
+    <p class="paragraph">[user introduction or objective]  
+      //Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores cum consequatur itaque mollitia obcaecati esse nihil blanditiis dolorum, aperiam quos, enim officia molestiae maiores ad sed recusandae? Consequuntur, labore nobis!
+        </p>
+        <br>
+        <a href="#" download class="btn btn2">Download CV</a>
+        <br>
+        
+    </div>
+
+
+<!-- skillll -->
+ <div class="skills" id="skill">
+        <h2>Technical skills</h2>
+            <ul>
+            <li>Programing languages: <mark>abc</mark>,x,y,z</li>
+            <li>Web Technologies: ABC.</li>
+            <li>Database: <mark>ABC</mark>, X,Y,Z.</li> 
+            <li>Framework: ABC</li> 
+            </ul>
+           <h2>Soft Skills</h2> 
+            <P>ABC, <mark>XYZ</mark>, XYZ</P>
+            <div class="education"> 
+                <h2>Education</h2>
+                <ul>
+                <li>
+                  [COLLEGE NAME] |[DEGREE/BRANCH],|[YEAR]|
+                             [Cumulative GPA:]
+                </li>
+                <li>[OTHER EDUCATIONAL DETAILS] |[BRANCH]|[YEAR]|
+                             [Percentage:] </li>
+                </ul>
+            </div>
+
+            <h2>Achievements</h2>
+            <ul>
+
+            <li><mark>[XYZ]</mark></li>
+            <li> [ABC]</li>
+            </ul> 
+
+           
+    </div>
+    
+
+    <!-- project -->
+    <div id="portfolio">
+         <!-- <div class="container">  -->
+          <h1 class="sub-title">My Work</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="./project1.jpg">
+              <div class="layer">
+                <h3>[PROJECT_1_NAME]</h3>
+                <p>[Project Description]  //  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla qui exercitationem minus itaque quidem nihil temporibus quod eum excepturi provident perspiciatis voluptates neque, sunt ex eligendi non quia sint dolore?</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="./project2.png">
+              <div class="layer">
+                <h3>[PROJECT_2_NAME</h3>
+                <p>[DESCRIPTION]    //  Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, illo animi mollitia ex obcaecati eum quo necessitatibus hic cumque aperiam. Accusantium, aperiam. Quibusdam sapiente facilis dignissimos et ducimus, eos obcaecati?</p>
+                <a href="#">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                  
+              </div>
+            </div>
+            <div class="work">
+                <img src="./project2.png">
+                <div class="layer">
+                  <h3>[PROJECT_3]</h3>
+                  <p>[DESCRIPTION]   //  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fuga ad accusamus ea doloremque facilis voluptatibus delectus dolorem? Consequatur temporibus esse nemo hic! Iusto repellat, ea impedit mollitia animi repellendus!
+                  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+          </div>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+
+
+
+      <!-- contact -->
+      <div id="contact">
+        <div class="contact">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub">Contact Me</h1>
+              <p><i class="fa-regular fa-envelope"></i>[EMAIL_ID]</p>
+              <p><i class="fa-solid fa-phone"></i>[PHONE NO]</p>
+              <div class="social-icons">
+                <a href="#[LINKEDIN LINK]"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#[GITHUB LINK]"><i class="fa-brands fa-square-github"></i></a>
+                <a href="# [HACKERRANK]"><i class="fa-brands fa-hackerrank"></i></a> 
+                <a href="#[FACEBOOK LINK]"><i class="fa-brands fa-facebook"></i></a>
+              </div>
+              
+        
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn2">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <script>
+          var tablinks = document.getElementsByClassName("tab-links");
+          var tabcontents = document.getElementsByClassName("tab-contents");
+          function opentab(tabname){
+            for(tablink of tablinks){
+              tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+              tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+          }
+        </script> 
+        <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+          sidemenu.style.right = "0";
+        }
+        function closemenu(){
+          sidemenu.style.right = "-200px"
+        }
+        </script>
+        <script>
+          const scriptURL = '';
+          
+          const form = document.forms['submit-to-google-sheet'];
+          const msg = document.getElementById("msg");
+        
+          form.addEventListener('submit', e => {
+            e.preventDefault();
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+              .then(response => {
+                if (response.ok) {
+                  msg.innerHTML = "Message sent successfully";
+                  setTimeout(function(){
+                    msg.innerHTML = "";
+                  }, 5000);
+                  form.reset();
+                } else {
+                  throw new Error('Network response was not ok.');
+                }
+              })
+              .catch(error => {
+                console.error('Error!', error.message);
+                msg.innerHTML = "Failed to send message";
+              });
+          });
+        </script>
+        
+       </body>
+       </html>
+        
+</body>
+</html>
