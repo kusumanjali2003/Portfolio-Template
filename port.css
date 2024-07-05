@@ -212,12 +212,10 @@ mark {
     height: 500px;
     padding: 0 15px;
   }
-  
   .row {
     display: flex;
     justify-content: space-between;
   }
-  
   .contact-left {
     flex-basis: 45%;
     text-align: left;
@@ -282,11 +280,9 @@ mark {
     background-color: #68abdb;
     color: #333;
   }
-  
   .contact-right form {
     width: 100%;
   }
-  
   form input,
   form textarea {
     width: 100%;
@@ -298,12 +294,10 @@ mark {
     font-size: 1rem;
     color: #333;
   }
-  
   form textarea {
     resize: vertical;
     min-height: 150px;
   }
-  
   form .btn {
     padding: 12px 50px;
     font-size: 1rem;
