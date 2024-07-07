@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: #0a0101;
     color: rgb(228, 222, 222);
-    background-image: url('./homeback.jpg');
+    background-image: url('./back.jpeg');
     background-size: cover; /* Ensure the image covers the entire area */
     background-position: center; 
     background-attachment: fixed;
