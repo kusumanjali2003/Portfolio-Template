@@ -9,6 +9,8 @@ body {
     background-position: center; 
     background-attachment: fixed;
 }
+
+/*here is the navigation part is designed  */
 header {
     background-color: #5a5959;
             color: #fff;
@@ -40,7 +42,7 @@ header {
 .navbar ul li a:hover {
     text-decoration: underline;
 }
-
+/* the home page is designed   */
 .home {
     /* text-align: center; */
     padding: 90px 50px;
